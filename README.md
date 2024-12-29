@@ -1,3 +1,6 @@
+## 实验记录
+详细的实验过程和结果请查看 [experiments.md](./experiments.md)
+
 # Branch Predictor Security Evaluation Framework
 
 This framework is a formal modeling and analysis framework for evaluating the vulnerabilities of timing-based and transient execution-based attacks on branch predictors in modern processors.
