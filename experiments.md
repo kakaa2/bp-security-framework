@@ -18,7 +18,8 @@
 - BTB: 116个漏洞 (间接跳转56个,调用指令30个,返回指令30个)
 - RSB: 12个漏洞
 
-<img src="C:\Users\zjh\AppData\Roaming\Typora\typora-user-images\image-20241229130612148.png" alt="image-20241229130612148" style="zoom: 25%;" />
+![image-20241229130612148](https://github.com/user-attachments/assets/6ded9af8-8f76-4e5e-83ad-f8e66b7cb7a5)
+
 
 ### **实验2: 安全分支预测器分析**
 
@@ -26,11 +27,13 @@
 
 1. RSB refilling防御机制分析(exp2_rsb_refilling):分析RSB refilling对RSB漏洞的缓解效果，输出各类型漏洞的统计数据
 
-   <img src="C:\Users\zjh\AppData\Local\Temp\QQ_1735448820172.png" alt="QQ_1735448820172" style="zoom: 33%;" />
+   ![QQ_1735448820172](https://github.com/user-attachments/assets/56f72331-445f-4d62-8385-374b046e5c1c)
+
 
 2. 安全分支预测器设计分析(exp2_secure_bp):分析8种安全分支预测器设计，评估它们对不同类型漏洞的防御效果，生成漏洞防御覆盖率统计
 
-   <img src="C:\Users\zjh\AppData\Roaming\Typora\typora-user-images\image-20241229130805721.png" alt="image-20241229130805721" style="zoom: 25%;" />
+   ![image-20241229130805721](https://github.com/user-attachments/assets/b23e6685-cb2c-4dc2-bd5e-3acdf5bbaa70)
+
 
 ### **实验3: 投机执行攻击防御分析**
 
@@ -38,15 +41,18 @@
 
 1. 基准分支预测器分析(exp3_baseline_bp)
 
-   <img src="C:\Users\zjh\AppData\Roaming\Typora\typora-user-images\image-20241229130937687.png" alt="image-20241229130937687" style="zoom: 33%;" />
+   ![image-20241229130937687](https://github.com/user-attachments/assets/c5dc5330-c829-4bc2-b0b4-7756b0a0e31c)
+
 
 2. 安全分支预测器分析(exp3_secure_bp)
 
-   <img src="C:\Users\zjh\AppData\Roaming\Typora\typora-user-images\image-20241229131032064.png" alt="image-20241229131032064" style="zoom:33%;" />
+   ![image-20241229131032064](https://github.com/user-attachments/assets/ca752d9e-c967-4546-b5f8-213e5ab494dd)
+
 
 3. 硬件防御机制分析(exp3_hw_defenses)
 
-   <img src="C:\Users\zjh\AppData\Roaming\Typora\typora-user-images\image-20241229131126109.png" alt="image-20241229131126109" style="zoom: 33%;" />
+   ![image-20241229131126109](https://github.com/user-attachments/assets/d7ead0cc-4a5e-451f-901a-52fd57ab52b2)
+
 
 ### **实验4: TAGE分支预测器建模**
 
@@ -56,7 +62,8 @@
 
 2. 分别建模每个表:得到106个漏洞
 
-   <img src="C:\Users\zjh\AppData\Roaming\Typora\typora-user-images\image-20241229131157372.png" alt="image-20241229131157372" style="zoom:33%;" />
+   ![image-20241229131157372](https://github.com/user-attachments/assets/d4120135-78a7-4783-97fc-d5560a95313b)
+
 
 ### **结果汇总**
 
